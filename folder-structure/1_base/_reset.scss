@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+// Reset Base REM to 10px.
+// Easier to remember: 1rem = 10px, 1.5rem = 15px
+html {
+    font-size: 10px;
+
+    /* Font varient */
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+
+    /* Smoothing */
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin: 0;
+}
+
+ol,
+ul,
+dl {
+    margin-bottom: 0;
+}
+
+a,
+button,
+object,
+embed,
+input::-moz-focus-inner
+select,
+select:-moz-focusring {
+    outline: 0;
+    outline-style: none;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:link,
+    &:visited {
+        outline: 0;
+        outline-style: none;
+    }
+}

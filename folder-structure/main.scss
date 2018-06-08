@@ -1,0 +1,14 @@
+// Base - Configuration (Variables, grid, resets, main styling, mixins, functions, ...)
+@import '1_base/base';
+
+// Pages - Page specific styling
+@import '2_pages/pages';
+
+// Layouts - Collection of blocks (Forms, Headers, Footers, Contact, ...)
+@import '3_layouts/layouts';
+
+// Blocks - Collection of elements (Product list, Text-blocks, Image-blocks, ...)
+@import '4_blocks/blocks';
+
+// Elements - Smallest possible objects (buttons, list items, products, ...)
+@import '5_elements/elements';

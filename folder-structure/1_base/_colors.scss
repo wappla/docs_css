@@ -1,0 +1,19 @@
+// Grey palette (usage: $grey-100 or $grey-900, ...))
+// When adding to the palette add a number between 0 and 1000 to indicate the intensity 0 = white, 1000 = black
+$grey-100: #EBEEF3;
+$grey-500: #888;
+$grey-900: #101820;
+
+$pure-white: #fff;
+$pure-black: #000;
+
+// Color palette (usage: $brand-600, ... or $brand to use base color)
+$brand-0: #EBEEF3;
+$brand: #007CFF;
+$brand-1000: #023147;
+
+$success-color: #1EE292;
+$warning-color: #D5424A;
+
+$text-color: #6B6B6B; // $grey-500
+$text-color-light: #fff; // $pure-white
