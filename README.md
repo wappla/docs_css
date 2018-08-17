@@ -9,7 +9,7 @@ Predefined dotfiles used for standard configuration. Can be added on per-project
 
 # CSS Style Guide & Best practices
 
-- [General PHP Rules](#general-php-rules)
+- [Folder structure](#folder-structure)
 - [Coding practices](#coding-practices)
 
 
