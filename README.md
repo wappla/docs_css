@@ -1,4 +1,4 @@
-# ![Logo](assets/signature.png) Wappla PHP
+# ![Logo](assets/signature.png) Wappla CSS
 
 A repository containing dotfiles, code style guides, best practices used in our company related to CSS and SCSS.
 
